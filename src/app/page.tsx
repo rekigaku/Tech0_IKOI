@@ -27,9 +27,7 @@ const LoginPage = () => {
       <div className="max-w-lg w-full p-8 bg-white rounded-2xl shadow-2xl">
         <h1 className="text-4xl font-bold mb-4">IKOI</h1>
         <p className="mb-8 text-gray-700">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-          excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-          id nisi.
+        A simple smile. That’s the start of opening your heart and being compassionate to others. 
         </p>
         <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
           <input 
