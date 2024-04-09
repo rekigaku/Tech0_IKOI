@@ -8,33 +8,20 @@ import styles from './daily.module.css'; // CSSモジュールをインポート
 const DailyReportPage: React.FC = () => {
   return (
     <div className="flex flex-col mx-auto p-10">
-      <div className={`navbar ${styles.navbar}`}>
+       {/* Header content */}
+       <div className={`navbar ${styles.navbar}`}>
         <div className="navbar-start">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-              </svg>
-            </label>
-          </div>
           <div className="ml-4 lg:ml-12">
             <Image src="/ikoi.png" alt="IKOI logo" width={150} height={50} />
           </div>
-        </div>
-
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0 text-xl ml-50">
-            <li><a>Item 1</a></li>
-            <li><a>Item 3</a></li>
-          </ul>
-        </div>
-        
-        <div className="navbar-end">
+        </div>        
+        <div className="navbar-end ">
           <Link href="/report" passHref>
-            <button className={`btn btn-ghost text-lg mr-7 ${styles.btn}`}>記録する</button>
+            <button className="btn text-lg mr-7">記録する</button>
+
           </Link>
           <Link href="/weekly" passHref>
-            <button className={`btn btn-ghost text-lg mr-7 ${styles.btn}`}>レポートを見る</button>
+          <button className="btn btn-active btn-primary text-lg mr-7">レポートをみる</button>
           </Link>
         </div>
       </div>

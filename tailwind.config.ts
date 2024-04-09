@@ -8,10 +8,22 @@ module.exports = {
   plugins: [
     require('daisyui'),
   ],
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
-};
 
 
+daisyui: {
+  themes: [
+    {
+      mytheme: {
+        "primary": "#D1C1D7",
+        "secondary": "#F6CBD1",
+        "accent": "#B4E9D6",
+        "neutral": "#70ACC7",
+        "base-100": "#F9FAFB",
+      },
+    },
+    "light",
+    "pastel",
+  ],
+},
+}
 

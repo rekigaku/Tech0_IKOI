@@ -25,10 +25,7 @@ const LoginPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-200">
       <div className="max-w-lg w-full p-8 bg-white rounded-2xl shadow-2xl">
-        <h1 className="text-4xl font-bold mb-4">IKOI</h1>
-        <p className="mb-8 text-gray-700">
-        A simple smile. That’s the start of opening your heart and being compassionate to others. 
-        </p>
+        <h1 className="text-4xl font-bold mb-8 text-center">IKOI</h1>
         <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
           <input 
             type="text" 
@@ -46,20 +43,11 @@ const LoginPage = () => {
           />
           <button 
             type="submit" 
-            className="btn btn-lg w-full"
-            style={{ backgroundColor: '#65C3C8' }}
-          >
-            ログイン
-          </button>
+              className="btn btn-primary btn-lg w-full">
 
-          <div> 
-            <Link 
-              href="/weekly" 
-              className="btn btn-lg w-full" 
-              style={{ backgroundColor: '#65C3C8' }}   >
-              Next Page
-            </Link>
-          </div>
+  ログイン
+</button>
+
       
         </form>
       </div>

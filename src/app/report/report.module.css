@@ -16,15 +16,9 @@
     color: #ffffff;
   }
   
-  .btn {
-    border: 1px solid #e5e7eb;
-    background-color: white;
-    color: #374151;
-  }
-  
-  .btnHover:hover {
-    background-color: #f3f4f6;
-  }
+
+
+
   
   .submitButton {
     background-color: #37cdbe;
